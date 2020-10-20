@@ -1,9 +1,10 @@
 {
   "build": {
     "distDir": "../dist",
-    "devPath": "http://127.0.0.1:3000",
+    "devPath": "http://localhost:3000",
     "beforeDevCommand": "vite",
-    "beforeBuildCommand": "vite build"
+    "beforeBuildCommand": "vite build",
+    "withGlobalTauri": true
   },
   "ctx": {},
   "tauri": {
